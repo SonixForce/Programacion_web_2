@@ -1,0 +1,10 @@
+body{
+    background-color: dimgray;
+    color: azure;
+    font-size: 2em;
+}
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: orange;
+}
