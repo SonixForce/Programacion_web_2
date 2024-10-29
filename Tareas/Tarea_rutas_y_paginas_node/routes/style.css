@@ -1,0 +1,71 @@
+/* Estilos generales en modo oscuro */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00030c;
+    color: #e0e0e0;
+}
+
+/* Banda superior para la navegación */
+.navbar {
+    width: 100%;
+    background-color: #06213a;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4a90e2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #245280;
+}
+
+/* Contenedor principal para mantener el footer en la parte inferior */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Hace que ocupe al menos toda la altura de la ventana */
+}
+
+/* Título centrado */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #4a90e2;
+}
+
+/* Contenido principal */
+.content {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    text-align: center;
+    text-overflow: inherit;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1e1e1e;
+    color: #888;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+}

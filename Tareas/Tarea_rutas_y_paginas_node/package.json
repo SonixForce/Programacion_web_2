@@ -1,0 +1,19 @@
+{
+  "name": "tarea_rutas_y_paginas_node",
+  "version": "1.0.0",
+  "description": "Comprobar como funcionan las rutas y paginas y como utilizarlas en node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rutas",
+    "paginas",
+    "node"
+  ],
+  "author": "Jesus Emilio Garces Zenil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
