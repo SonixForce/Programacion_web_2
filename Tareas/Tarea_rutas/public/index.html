@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Bienvenida</title>
+  <style>
+    /* Estilos generales del tema oscuro */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #1a1a2e; /* Color de fondo oscuro */
+      color: #ffffff; /* Color de texto claro */
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 1em;
+      color: #00aaff; /* Azul claro para el título */
+    }
+
+    .button-container {
+      display: flex;
+      gap: 1em;
+    }
+
+    .button {
+      background-color: #0077b6; /* Color azul para los botones */
+      color: #ffffff;
+      padding: 1em 2em;
+      font-size: 1em;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #005f8b; /* Color azul más oscuro al pasar el mouse */
+    }
+
+    /* Responsivo para dispositivos móviles */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      .button-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido a la página principal para la tarea de rutas</h1>
+  <p>Elige una opción para continuar:</p>
+  <div class="button-container">
+    <a href="/calculadora" class="button">Calculadora</a>
+    <a href="/generador-qr" class="button">Generador QR</a>
+  </div>
+</body>
+</html>

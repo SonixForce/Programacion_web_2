@@ -1,0 +1,14 @@
+{
+  "name": "tarea_rutas",
+  "version": "1.0.0",
+  "description": "Tarea sobre rutas en Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesus Emilio Garces Zenil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
